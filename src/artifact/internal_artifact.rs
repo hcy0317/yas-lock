@@ -163,6 +163,8 @@ pub enum CharacterKey {
     Freminet,
     Wriothesley,
     Neuvillette,
+    Furina,
+    Charlotte,
     Navia,
     Chevreuse,
 }
@@ -856,6 +858,8 @@ impl CharacterKey {
             "菲米尼" => Some(CharacterKey::Freminet),
             "莱欧斯利" => Some(CharacterKey::Wriothesley),
             "那维莱特" => Some(CharacterKey::Neuvillette),
+            "芙宁娜" => Some(CharacterKey::Furina),
+            "夏洛蒂" => Some(CharacterKey::Charlotte),
             "娜维娅" => Some(CharacterKey::Navia),
             "夏沃蕾" => Some(CharacterKey::Chevreuse),
             _ => None,
