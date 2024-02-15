@@ -167,6 +167,8 @@ pub enum CharacterKey {
     Charlotte,
     Navia,
     Chevreuse,
+    Xianyun,
+    Gaming,
 }
 
 #[derive(Debug, Clone)]
@@ -862,6 +864,8 @@ impl CharacterKey {
             "夏洛蒂" => Some(CharacterKey::Charlotte),
             "娜维娅" => Some(CharacterKey::Navia),
             "夏沃蕾" => Some(CharacterKey::Chevreuse),
+            "闲云" => Some(CharacterKey::Xianyun),
+            "嘉明" => Some(CharacterKey::Gaming),
             _ => None,
         }
     }
